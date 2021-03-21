@@ -20,8 +20,8 @@ if (Number.isInteger(age) && age > 0 )
         console.log('Veuillez donner un âge réel')
       } 
     }
-if (age >= process.argv[0]) {
-  console.log(` vous êtes majeur, vous pouvez voter`)
+if (age >= ageLimite) {
+  console.log(`Vous êtes majeur, vous pouvez voter`)
 } else {
   console.log(`Désolé , vous êtes mineur, vous ne pouvez pas voter`)
 }
